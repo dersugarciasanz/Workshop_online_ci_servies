@@ -76,6 +76,7 @@ artifacts:
 
 only_commits:
   files:
+    - readme.md
     - appveyor.yml
     - src/
     - test/
