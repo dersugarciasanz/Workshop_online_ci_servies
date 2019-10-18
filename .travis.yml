@@ -20,13 +20,13 @@ script:
 - cmake ..
 - cmake --build . --target --config ${CONFIGURATION}
 - cd
-- cd build/JorTurFer/Workshop_RiojaDotNet
+- cd build/JorTurFer/Workshop_online_ci_servies
 - dotnet build --configuration $CONFIGURATION
 - cd src
 - cd C*
 - cd build
 - cd 
-- cd build/JorTurFer/Workshop_RiojaDotNet
+- cd build/JorTurFer/Workshop_online_ci_servies
 - cp -a "src/C++ Library/build/." "test/NativeMehotdsTests/bin/${CONFIGURATION}/netcoreapp2.1/"
 - dotnet test
 
