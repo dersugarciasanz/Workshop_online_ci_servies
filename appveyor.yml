@@ -1,16 +1,10 @@
 ver sion: 1.0.{build}
-
-os:
-  - Visual Studio 2017
-  - Visual Studio 2019
-  - Ubuntu
-  
-configuration:
-- Release
-
+image:
+- Visual Studio 2017
+- Visual Studio 2019
+configuration: Release
 before_build:
 - cmd: nuget restore
-
 build:
   project: Ejemplo NetCore.sln
   verbosity: minimal
