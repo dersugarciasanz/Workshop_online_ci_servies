@@ -1,3 +1,4 @@
+name: "C++"
 variables:
   solution: '**/cpplinq_examples.sln'
   buildPlatform: 'x64'
