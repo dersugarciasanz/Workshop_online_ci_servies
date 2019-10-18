@@ -1,3 +1,11 @@
+name: "NetCoreC++"
+
+trigger:
+  branches:
+    include:
+    - NetCoreC++
+
+
 variables:
   solution: '**/PostNetCoreNativo.sln'
   buildConfiguration: 'Release'
