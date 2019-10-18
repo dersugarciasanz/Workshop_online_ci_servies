@@ -47,6 +47,7 @@ build:
   parallel: true
 only_commits:
   files:
+    - readme.md
     - CMakeLists.txt
     - appveyor.yml
     - examples/
