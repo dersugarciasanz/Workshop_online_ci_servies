@@ -1,4 +1,4 @@
-version: 1.0.{build}
+ver sion: 1.0.{build}
 
 os:
   - Visual Studio 2017
@@ -17,6 +17,7 @@ build:
   
 only_commits:
   files:
+    - readme.md
     - appveyor.yml
     - src/
     - test/
