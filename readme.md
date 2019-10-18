@@ -1,4 +1,4 @@
-# Workshop RiojaDotNet
+# Workshop Iniciación a los servicios de integración continua online
 
 Repositorio de ejemplos de CI
 
